@@ -1,13 +1,16 @@
-const Room = function(area, isPainted){
-    this.area = area;
-    this.isPainted = isPainted;
 
-    Room.prototype.hasBeenPainted = function(){
-        return this.isPainted = true
-    }
-}
-module.exports = Room;
 
-// const Paint_Can
+
+
+// const Paint_Can = function(litresOfPaint){
+//     this.litresOfPaint = litresOfPaint;
+// };
+
+
+
 
 // const Decorator
+
+
+// module.exports = Paint_Can;
+// module.exports = Room;
